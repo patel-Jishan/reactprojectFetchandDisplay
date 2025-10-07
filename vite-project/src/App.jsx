@@ -1,15 +1,18 @@
 import { useState } from 'react'
-import { Stopwatch } from './components/watch'
+import { UserProfiles } from "./components/userprofile";
+
+
+
+
 
 import './App.css'
 
 function App() {
-
+ 
 
   return (
     <>
-  <Stopwatch/>
-     
+   <UserProfiles/>
     </>
   )
 }
